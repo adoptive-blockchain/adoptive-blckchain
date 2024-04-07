@@ -1,0 +1,25 @@
+{
+  "name": "@adotive-blockchain",
+  "version": "2.0.1",
+  "description": "adotive-blockchain",
+  "license": "MIT",
+  "main": "src/index.js",
+  "homepage": "https://github.com/adotive-blockchain.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adotive-blockchain/adotive-blockchain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adotive-blockchain/issues"
+  },
+  "dependencies": {
+    "web3-eth-abi": "^1.7.4"
+  },
+  "devDependencies": {
+    "tronweb": "^4.2.0",
+    "web3": "^1.7.5"
+  },
+  "scripts": {
+    "test": "mocha --timeout 600000 tests -c --testnet --dev"
+  }
+}
