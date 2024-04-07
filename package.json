@@ -1,16 +1,17 @@
 {
-  "name": "@adotive-blockchain",
+  "name": "@adoptive-blockchain",
   "version": "2.0.1",
-  "description": "adotive-blockchain",
+  "description": "multi-call for blockchain",
+  "author": "bycryptodefi@gmail.com",
   "license": "MIT",
   "main": "src/index.js",
-  "homepage": "https://github.com/adotive-blockchain.git",
+  "homepage": "https://github.com/adoptive-blockchain.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adotive-blockchain/adotive-blockchain.git"
+    "url": "git+https://github.com/adoptive-blockchain/adoptive-blockchain.git"
   },
   "bugs": {
-    "url": "https://github.com/adotive-blockchain/issues"
+    "url": "https://github.com/adoptive-blockchain/issues"
   },
   "dependencies": {
     "web3-eth-abi": "^1.7.4"
