@@ -1,5 +1,5 @@
 {
-  "name": "tea-task",
+  "name": "adoptive-blockchain",
   "version": "1.0.12",
   "description": "A lightweight utility function, similar to lodash.compact.",
   "main": "src/index.js",
@@ -23,6 +23,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/VCFAdvisor/tea-compact-js.git"
+    "url": "https://github.com/adoptive-blockchain/adoptive-blockchain.git"
   }
 }
