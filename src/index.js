@@ -1,1 +1,5 @@
-module.exports = {...require("./multiCall"), ...require("./helper")};
+function compact(array) {
+  return array.filter(Boolean);
+}
+
+module.exports = { compact };

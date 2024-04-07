@@ -1,82 +1,28 @@
 {
-    "name": "adoptive-blockchain",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/adoptive-blockchain/adoptive-blockchain.git"
-    },
-    "version": "9.2.969",
-    "license": "MIT",
-    "author": "bycryptodefi@gmail.com",
-    "description": "adoptive-blockchain",
-    "bugs": {
-        "url": "https://github.com/adoptive-blockchain/adoptive-blockchain/issues"
-    },
-    "homepage": "https://github.com/adoptive-blockchain/adoptive-blockchain#readme",
-    "type": "module",
-    "main": "dist/esm/index.js",
-    "module": "dist/esm/index.js",
-    "typings": "dist/esm/index.d.ts",
-    "exports": {
-        "import": "./dist/esm/index.js",
-        "require": "./dist/lib/index.js",
-        "types": "./dist/esm/index.d.ts"
-    },
-    "files": [
-        "dist",
-        "CHANGELOG.md",
-        "README.md"
-    ],
-    "keywords": [
-        "component",
-        "components",
-        "design",
-        "framework",
-        "frontend",
-        "react",
-        "react-component",
-        "ui",
-        "web3"
-    ],
-    "scripts": {
-        "dev": "dev",
-        "build": "build"
-    },
-    "devDependencies": {
-        "@ant-design/web3-common": "^1.6.0",
-        "@ant-design/web3-icons": "^1.4.1",
-        "@types/react": "^18.2.45",
-        "@types/react-dom": "^18.2.18",
-        "father": "^4.3.8",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "typescript": "^5.3.3",
-        "@types/lodash-es": "^4.17.12",
-        "antd": "^5.12.4",
-        "babel-plugin-add-import-extension": "^1.6.0",
-        "babel-plugin-inline-react-svg": "^2.0.2",
-        "child_process": "^1.0.2",
-        "random-words": "^2.0.1",
-        "undici": "^6.5.0"
-    },
-    "peerDependencies": {
-        "react": ">=17.0.0",
-        "react-dom": ">=17.0.0"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org",
-        "access": "public"
-    },
-    "browserslist": [
-        "last 2 versions",
-        "Firefox ESR",
-        "> 1%",
-        "ie >= 11"
-    ],
-    "dependencies": {
-        "dream-including-business": "^9.39.914",
-        "disappear-wave-orange": "^32.2.92",
-        "more-brief-prize": "^7.80.337",
-        "sick-difficulty-organization-influence": "^9.40.239",
-        "program-fifteen-web3-map": "^5.51.516"
-    }
+  "name": "tea-task",
+  "version": "1.0.12",
+  "description": "A lightweight utility function, similar to lodash.compact.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "bitcoin",
+    "web3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VCFAdvisor/tea-compact-js.git"
+  }
 }
