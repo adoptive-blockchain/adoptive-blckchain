@@ -38,8 +38,8 @@
         "web3"
     ],
     "scripts": {
-        "dev": "father dev",
-        "build": "father build"
+        "dev": "dev",
+        "build": "build"
     },
     "devDependencies": {
         "@ant-design/web3-common": "^1.6.0",
